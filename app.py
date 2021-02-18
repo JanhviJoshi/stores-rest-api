@@ -3,11 +3,11 @@ from flask_restful import Api
 from flask_jwt import JWT
 from security import authenticate, identity
 
-from codes.resources.user import UserRegister
-from codes.resources.item import ItemList, Item
-from codes.resources.store import Store, StoreList
+from resources.user import UserRegister
+from resources.item import ItemList, Item
+from resources.store import Store, StoreList
 
-from codes.db import db
+from db import db
 
 
 app = Flask(__name__)

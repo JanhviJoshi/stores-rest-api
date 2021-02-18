@@ -1,4 +1,4 @@
-from codes.db import db
+from db import db
 
 
 # our api cannot receive data into this class and send the class as
